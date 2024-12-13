@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "4a15050e-374a-406b-98aa-734c34460627",
+		"name": "payware",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1507616",
+		"_collection_link": "https://galactic-crescent-509480.postman.co/workspace/HawksBay~8fe1c44f-4e91-4e69-bafa-5314ca7452a6/collection/1507616-4a15050e-374a-406b-98aa-734c34460627?action=share&source=collection_link&creator=1507616"
+	},
+	"item": [
+		{
+			"name": "http://localhost:1980/PaywareCustomEndpoint/?UserID=1&HostAccountID=2&RequestedNickName=qwe&TransactionAmount=10.0&CurrencyCodeId=1&RecipCountryId=1&SubsidiaryId=1&RecipFiCountryId=1&IntermedCountryId=1&TemplateId=1&ProcessDate=2024-10-10",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1980/PaywareCustomEndpoint/?UserID=1&HostAccountID=2&RequestedNickName=qwe&TransactionAmount=10.0&CurrencyCodeId=1&RecipCountryId=1&SubsidiaryId=1&RecipFiCountryId=1&IntermedCountryId=1&TemplateId=1&ProcessDate=2024-10-10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1980",
+					"path": [
+						"PaywareCustomEndpoint",
+						""
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "1"
+						},
+						{
+							"key": "HostAccountID",
+							"value": "2"
+						},
+						{
+							"key": "RequestedNickName",
+							"value": "qwe"
+						},
+						{
+							"key": "TransactionAmount",
+							"value": "10.0"
+						},
+						{
+							"key": "CurrencyCodeId",
+							"value": "1"
+						},
+						{
+							"key": "RecipCountryId",
+							"value": "1"
+						},
+						{
+							"key": "SubsidiaryId",
+							"value": "1"
+						},
+						{
+							"key": "RecipFiCountryId",
+							"value": "1"
+						},
+						{
+							"key": "IntermedCountryId",
+							"value": "1"
+						},
+						{
+							"key": "TemplateId",
+							"value": "1"
+						},
+						{
+							"key": "ProcessDate",
+							"value": "2024-10-10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:1980/PaywareCustomEndpoint/?getWireDomestic",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1980/PaywareCustomEndpoint/?getWireDomestic",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1980",
+					"path": [
+						"PaywareCustomEndpoint",
+						""
+					],
+					"query": [
+						{
+							"key": "getWireDomestic",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
